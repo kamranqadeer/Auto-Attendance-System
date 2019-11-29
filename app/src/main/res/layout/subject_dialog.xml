@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/relativeshadow">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/relativeshadow">
+        <EditText
+            android:id="@+id/EnterSubject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Enter SUBJECTS"
+            android:textSize="22sp"
+            android:background="@drawable/edittext"/>
+
+        <Button
+            android:id="@+id/Datesave2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EditNotes2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:text="Save"
+            tools:ignore="UnknownId" />
+    </RelativeLayout>
+
+</LinearLayout>

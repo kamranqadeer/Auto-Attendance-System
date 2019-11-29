@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AutoAttendance</string>
+    <string name="title_activity_subject">SubjectActivity</string>
+    <string name="title_activity_teacher_subjects">TeacherSubjects</string>
+    <string name="edit1">TeacherProfile</string>
+</resources>

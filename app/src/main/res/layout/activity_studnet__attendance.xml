@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kkapp.autoattendance.TeacherID"
+    android:background="@color/ForestGreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/student1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:shadowColor="@color/White"
+            android:textStyle="bold"
+            android:text="GIVE ATTENDANCE AND CONNECT"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="@color/White"
+            android:text="CONNCET"
+            android:textStyle="italic"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="45dp"
+            android:id="@+id/textView3" />
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/linearLayout3">
+
+            <EditText
+                android:id="@+id/wifiname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/linearLayout"
+                android:alpha=".6"
+                android:background="@drawable/edittext"
+                android:hint="WIFI name:"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:alpha=".6"
+                android:id="@+id/wifipassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext"
+                android:hint="WIFI password:"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+            <EditText
+                android:id="@+id/NAME1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha=".6"
+                android:background="@drawable/edittext"
+                android:hint="Name:"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/ID1"
+                android:alpha=".6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext"
+                android:hint="REG#"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView3"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="WIFI"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

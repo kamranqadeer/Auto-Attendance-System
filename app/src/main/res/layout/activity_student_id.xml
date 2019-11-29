@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kkapp.autoattendance.TeacherID"
+    android:background="@color/ForestGreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/student1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:shadowColor="@color/White"
+            android:textStyle="bold"
+            android:text="STUDENT"
+            android:textColor="@color/White"
+            android:textSize="30sp"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="@color/White"
+            android:text="Detail,s"
+            android:textStyle="italic"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="320dp"
+            android:layout_height="243dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="86dp">
+
+            <EditText
+                android:id="@+id/NAME1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext"
+                android:hint="Name:"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic"
+                android:alpha=".6"/>
+
+            <EditText
+                android:id="@+id/ID1"
+                android:alpha=".6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext"
+                android:hint="ID:"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/Education1"
+                android:alpha=".6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edittext"
+                android:hint="EDUCATION:"
+                android:inputType="textCapCharacters"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/Contect1"
+                android:alpha=".6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittext"
+                android:hint="PHON NO:"
+                android:inputType="phone"
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/StudentDetainlSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="SAVE"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <Button
+            android:id="@+id/NextButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/StudentDetainlSave"
+            android:layout_alignBottom="@+id/StudentDetainlSave"
+            android:layout_alignEnd="@+id/linearLayout"
+            android:layout_alignRight="@+id/linearLayout"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="NEXT"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

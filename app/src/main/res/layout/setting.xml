@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo4">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2"
+        android:layout_marginTop="170dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout2">
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext"
+                android:hint="ENTER SUBJECT NAME"
+                android:padding="15dp"
+                android:alpha=".5"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic"
+                android:textColor="@color/Black"/>
+            <EditText
+                android:id="@+id/HotspotName"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext"
+                android:hint="Enter HotsPot Name"
+                android:padding="15dp"
+                android:alpha=".5"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic"
+                android:textColor="@color/Black"/>
+
+            <EditText
+                android:id="@+id/HotspotPass"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:alpha=".5"
+                android:background="@drawable/edittext"
+                android:hint="Enter HotsPot Password "
+                android:padding="15dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/HotspotCreat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="CREAT HOTSPOT"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:shadowColor="@color/White"
+        android:text="TUN_ON_HOTSPOT"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="@color/White"
+        android:text="CREAT WITH SUBJECT NAME"
+        android:textStyle="italic"
+        android:textColor="@color/White"
+        android:textSize="15sp"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="45dp"
+        android:id="@+id/textView3" />
+
+</RelativeLayout>
